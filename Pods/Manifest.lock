@@ -1,0 +1,12 @@
+PODS:
+  - MRFramework (1.0.0)
+
+DEPENDENCIES:
+  - MRFramework
+
+SPEC CHECKSUMS:
+  MRFramework: 6ac503060fb294cbd2edd871dbd800b3ef60e1f1
+
+PODFILE CHECKSUM: baaa78aaab09d552a01f8e0263a3ef62689b5df5
+
+COCOAPODS: 1.2.1

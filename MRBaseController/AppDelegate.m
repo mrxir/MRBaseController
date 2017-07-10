@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "MRBaseController.h"
+
 @interface AppDelegate ()
 
 @end
