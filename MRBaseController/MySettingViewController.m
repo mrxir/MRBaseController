@@ -1,38 +1,28 @@
 //
-//  SettingViewController.m
+//  MySettingViewController.m
 //  MRBaseController
 //
 //  Created by MrXir on 2017/7/10.
 //  Copyright © 2017年 MrXir. All rights reserved.
 //
 
-#import "SettingViewController.h"
-
 #import "MySettingViewController.h"
 
-#import <MRUIKit.h>
-
-@interface SettingViewController ()
-
-@property (nonatomic, weak) IBOutlet UIButton *mySettingButton;
+@interface MySettingViewController ()
 
 @end
 
-@implementation SettingViewController
+@implementation MySettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self.mySettingButton handleWithEvents:UIControlEventTouchUpInside completion:^(__kindof UIControl *control) {
-        
-        MySettingViewController *vc = [MySettingViewController matchControllerForMyself];
-        vc.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:vc animated:YES];
-        
-    }];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
+                                                 forBarPosition:UIBarPositionAny
+                                                     barMetrics:UIBarMetricsDefault];
     
-    
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
 }
 
 - (void)didReceiveMemoryWarning {

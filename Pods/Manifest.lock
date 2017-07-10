@@ -1,12 +1,15 @@
 PODS:
+  - KMNavigationBarTransition (1.0.0)
   - MRFramework (1.0.0)
 
 DEPENDENCIES:
+  - KMNavigationBarTransition
   - MRFramework
 
 SPEC CHECKSUMS:
+  KMNavigationBarTransition: b3fb8337f7a1e4542add07fd6c45fb9980794d59
   MRFramework: 6ac503060fb294cbd2edd871dbd800b3ef60e1f1
 
-PODFILE CHECKSUM: baaa78aaab09d552a01f8e0263a3ef62689b5df5
+PODFILE CHECKSUM: cb27eac87ec0a4cdf769e8897f15d3507f8c44ae
 
 COCOAPODS: 1.2.1

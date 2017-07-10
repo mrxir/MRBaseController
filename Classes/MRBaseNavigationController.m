@@ -8,7 +8,7 @@
 
 #import "MRBaseNavigationController.h"
 
-@interface MRBaseNavigationController ()
+@interface MRBaseNavigationController ()<UIGestureRecognizerDelegate>
 
 @end
 

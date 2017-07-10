@@ -8,6 +8,8 @@
 
 #import "RootViewController.h"
 
+#import <UIStoryboard+Extension.h>
+
 @interface RootViewController ()
 
 @end
@@ -17,6 +19,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSArray *storyboardNames = @[@"Main",
+                                 @"Home",
+                                 @"Setting"];
+    
+    [UIStoryboard setStoryboardNames:storyboardNames];
+    
+    UINavigationController *home = [[UIStoryboard storyboardWithName:@"Home" bundle:nil] instantiateInitialViewController];
+    home.viewControllers.firstObject.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Home"
+                                                                                image:[UIImage imageNamed:@"home_n"]
+                                                                        selectedImage:[UIImage imageNamed:@"home_s"]];
+    
+    UINavigationController *setting = [[UIStoryboard storyboardWithName:@"Setting" bundle:nil] instantiateInitialViewController];
+    setting.viewControllers.firstObject.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Setting"
+                                                                                   image:[UIImage imageNamed:@"setting_n"]
+                                                                           selectedImage:[UIImage imageNamed:@"setting_s"]];
+    
+    self.viewControllers = @[home, setting];
 }
 
 - (void)didReceiveMemoryWarning {

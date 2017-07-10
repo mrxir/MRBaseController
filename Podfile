@@ -8,5 +8,7 @@ target 'MRBaseController' do
   # Pods for MRBaseController
   
   pod 'MRFramework'
+  
+  pod 'KMNavigationBarTransition'
 
 end

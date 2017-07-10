@@ -24,6 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    if ([identifier isEqualToString:@"!"]) {
+        return NO;
+    } else {
+        return YES;
+    }
+}
+
 /*
 #pragma mark - Navigation
 

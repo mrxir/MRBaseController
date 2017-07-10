@@ -2,12 +2,11 @@
 //  MRBaseController.h
 //  MRBaseController
 //
-//  Created by MrXir on 2017/6/29.
+//  Created by MrXir on 2017/7/10.
 //  Copyright © 2017年 MrXir. All rights reserved.
 //
 
-#ifndef MRBaseController_h
-#define MRBaseController_h
+#import <Foundation/Foundation.h>
 
 #import "MRBaseTabBarController.h"
 
@@ -15,4 +14,6 @@
 
 #import "MRBaseViewController.h"
 
-#endif /* MRBaseController_h */
+@interface MRBaseController : NSObject
+
+@end
