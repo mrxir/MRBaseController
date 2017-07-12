@@ -1,24 +1,24 @@
 //
-//  SearchViewController.m
+//  ResidentAreaViewController.m
 //  MRBaseController
 //
-//  Created by MrXir on 2017/7/11.
+//  Created by MrXir on 2017/7/12.
 //  Copyright © 2017年 MrXir. All rights reserved.
 //
 
-#import "SearchViewController.h"
+#import "ResidentAreaViewController.h"
 
 #import <UINavigationBar+Extension.h>
 
-@interface SearchViewController ()
+@interface ResidentAreaViewController ()
 
 @end
 
-@implementation SearchViewController
+@implementation ResidentAreaViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view.    
 }
 
 - (void)didReceiveMemoryWarning {

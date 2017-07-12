@@ -8,6 +8,8 @@
 
 #import "AboutUsViewController.h"
 
+#import <UINavigationBar+Extension.h>
+
 @interface AboutUsViewController ()
 
 @end
@@ -16,14 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    [self.navigationController.navigationBar setBackgroundImage:nil
-                                                 forBarPosition:UIBarPositionAny
-                                                     barMetrics:UIBarMetricsDefault];
-    
-    [self.navigationController.navigationBar setShadowImage:nil];
-    
+    // Do any additional setup after loading the view.    
 }
 
 - (void)didReceiveMemoryWarning {

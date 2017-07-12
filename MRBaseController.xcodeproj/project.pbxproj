@@ -13,6 +13,7 @@
 		6704138D1F049C84005BDF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6704138C1F049C84005BDF55 /* Assets.xcassets */; };
 		670413901F049C84005BDF55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6704138E1F049C84005BDF55 /* LaunchScreen.storyboard */; };
 		6704139B1F049EEF005BDF55 /* MRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6704139A1F049EEF005BDF55 /* MRBaseViewController.m */; };
+		670F48B51F16016900C20F4E /* ResidentAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670F48B41F16016900C20F4E /* ResidentAreaViewController.m */; };
 		677576981F13767B00715F6B /* MRBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677576971F13767B00715F6B /* MRBaseNavigationController.m */; };
 		6775769B1F1376AB00715F6B /* MRBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6775769A1F1376AB00715F6B /* MRBaseTabBarController.m */; };
 		677576A11F137A7F00715F6B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677576A01F137A7F00715F6B /* RootViewController.m */; };
@@ -42,6 +43,8 @@
 		670413911F049C84005BDF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		670413991F049EEF005BDF55 /* MRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBaseViewController.h; sourceTree = "<group>"; };
 		6704139A1F049EEF005BDF55 /* MRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBaseViewController.m; sourceTree = "<group>"; };
+		670F48B31F16016900C20F4E /* ResidentAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResidentAreaViewController.h; sourceTree = "<group>"; };
+		670F48B41F16016900C20F4E /* ResidentAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResidentAreaViewController.m; sourceTree = "<group>"; };
 		677576961F13767B00715F6B /* MRBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBaseNavigationController.h; sourceTree = "<group>"; };
 		677576971F13767B00715F6B /* MRBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBaseNavigationController.m; sourceTree = "<group>"; };
 		677576991F1376AB00715F6B /* MRBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBaseTabBarController.h; sourceTree = "<group>"; };
@@ -103,23 +106,14 @@
 		6704137F1F049C84005BDF55 /* MRBaseController */ = {
 			isa = PBXGroup;
 			children = (
+				670413891F049C84005BDF55 /* Main.storyboard */,
+				677576A41F1380C300715F6B /* Home.storyboard */,
+				677576A61F1380CC00715F6B /* Setting.storyboard */,
 				670413831F049C84005BDF55 /* AppDelegate.h */,
 				670413841F049C84005BDF55 /* AppDelegate.m */,
 				6775769F1F137A7F00715F6B /* RootViewController.h */,
 				677576A01F137A7F00715F6B /* RootViewController.m */,
-				677576A81F1380FF00715F6B /* HomeViewController.h */,
-				677576A91F1380FF00715F6B /* HomeViewController.m */,
-				677576AB1F13BCE400715F6B /* SettingViewController.h */,
-				677576AC1F13BCE400715F6B /* SettingViewController.m */,
-				677576B31F13D1F700715F6B /* MySettingViewController.h */,
-				677576B41F13D1F700715F6B /* MySettingViewController.m */,
-				677576B81F13E5A300715F6B /* AboutUsViewController.h */,
-				677576B91F13E5A300715F6B /* AboutUsViewController.m */,
-				677576BB1F13E7A200715F6B /* SearchViewController.h */,
-				677576BC1F13E7A200715F6B /* SearchViewController.m */,
-				670413891F049C84005BDF55 /* Main.storyboard */,
-				677576A41F1380C300715F6B /* Home.storyboard */,
-				677576A61F1380CC00715F6B /* Setting.storyboard */,
+				670F48B61F1601B600C20F4E /* ViewControllers */,
 				6704138C1F049C84005BDF55 /* Assets.xcassets */,
 				6704138E1F049C84005BDF55 /* LaunchScreen.storyboard */,
 				670413911F049C84005BDF55 /* Info.plist */,
@@ -149,6 +143,25 @@
 				6704139A1F049EEF005BDF55 /* MRBaseViewController.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		670F48B61F1601B600C20F4E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				677576A81F1380FF00715F6B /* HomeViewController.h */,
+				677576A91F1380FF00715F6B /* HomeViewController.m */,
+				677576AB1F13BCE400715F6B /* SettingViewController.h */,
+				677576AC1F13BCE400715F6B /* SettingViewController.m */,
+				677576B31F13D1F700715F6B /* MySettingViewController.h */,
+				677576B41F13D1F700715F6B /* MySettingViewController.m */,
+				670F48B31F16016900C20F4E /* ResidentAreaViewController.h */,
+				670F48B41F16016900C20F4E /* ResidentAreaViewController.m */,
+				677576B81F13E5A300715F6B /* AboutUsViewController.h */,
+				677576B91F13E5A300715F6B /* AboutUsViewController.m */,
+				677576BB1F13E7A200715F6B /* SearchViewController.h */,
+				677576BC1F13E7A200715F6B /* SearchViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		B01F2850B41E36038F90A0F2 /* Pods */ = {
@@ -300,6 +313,7 @@
 				677576981F13767B00715F6B /* MRBaseNavigationController.m in Sources */,
 				6704139B1F049EEF005BDF55 /* MRBaseViewController.m in Sources */,
 				670413821F049C84005BDF55 /* main.m in Sources */,
+				670F48B51F16016900C20F4E /* ResidentAreaViewController.m in Sources */,
 				6775769B1F1376AB00715F6B /* MRBaseTabBarController.m in Sources */,
 				677576B21F13C70700715F6B /* MRBaseController.m in Sources */,
 				677576BA1F13E5A300715F6B /* AboutUsViewController.m in Sources */,

@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+        
     [self.mySettingButton handleWithEvents:UIControlEventTouchUpInside completion:^(__kindof UIControl *control) {
         
         MySettingViewController *vc = [MySettingViewController matchControllerForMyself];

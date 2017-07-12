@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--设置-->
+        <!--Setting View Controller-->
         <scene sceneID="Uhw-MH-vwh">
             <objects>
                 <viewController storyboardIdentifier="SettingViewController" id="Kej-ac-cHX" customClass="SettingViewController" sceneMemberID="viewController">
@@ -34,14 +34,14 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uOA-bu-xQz" firstAttribute="top" secondItem="KBX-a3-Ra2" secondAttribute="bottom" constant="20" id="GUz-vf-goG"/>
                             <constraint firstAttribute="trailing" secondItem="uOA-bu-xQz" secondAttribute="trailing" constant="20" id="Sku-1s-Y6G"/>
                             <constraint firstItem="uOA-bu-xQz" firstAttribute="leading" secondItem="pxz-sy-i6M" secondAttribute="leading" constant="20" id="rhR-ri-2vV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="设置" id="0ZT-Hm-6hv"/>
+                    <navigationItem key="navigationItem" id="0ZT-Hm-6hv"/>
                     <connections>
                         <outlet property="mySettingButton" destination="uOA-bu-xQz" id="3S5-st-t1s"/>
                     </connections>
@@ -84,7 +84,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Rtq-Cs-0E5" firstAttribute="leading" secondItem="oIA-0B-e2t" secondAttribute="leading" constant="20" id="BYO-Pj-JQf"/>
                             <constraint firstAttribute="bottom" secondItem="Rtq-Cs-0E5" secondAttribute="bottom" constant="50" id="Cod-bq-Utv"/>
@@ -102,10 +102,10 @@
             </objects>
             <point key="canvasLocation" x="1868" y="158"/>
         </scene>
-        <!--View Controller-->
+        <!--Resident Area View Controller-->
         <scene sceneID="PUL-ib-YbF">
             <objects>
-                <viewController id="l6j-Ti-CY0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResidentAreaViewController" id="l6j-Ti-CY0" customClass="ResidentAreaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5rf-iq-BIH"/>
                         <viewControllerLayoutGuide type="bottom" id="DwO-dH-CIh"/>
@@ -159,14 +159,14 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="58Z-pn-bl0">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="58Z-pn-bl0" firstAttribute="leading" secondItem="Uf0-vS-X1Q" secondAttribute="leading" id="WLP-6H-oBm"/>
                             <constraint firstItem="kMY-U7-GqX" firstAttribute="top" secondItem="58Z-pn-bl0" secondAttribute="bottom" id="Wab-0R-9cH"/>
@@ -203,7 +203,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="P6T-81-QAS" firstAttribute="top" secondItem="JN3-kn-p8V" secondAttribute="top" id="2Zf-uY-4aa"/>
                             <constraint firstItem="P6T-81-QAS" firstAttribute="leading" secondItem="JN3-kn-p8V" secondAttribute="leading" id="5as-fd-Ze3"/>

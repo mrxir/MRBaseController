@@ -8,6 +8,8 @@
 
 #import "HomeViewController.h"
 
+#import <UIImage+Extension.h>
+
 @interface HomeViewController ()
 
 @end

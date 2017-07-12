@@ -7,222 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B25CF02B4E2F4E22ED1A3E29A87FB1 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E139B6F099654B2BC81C478E57EA240 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D7334E77A70A95BBC40AA3B30E34AEE /* KMSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C104E594D0C15F8D2311BB73A6F4AD2 /* KMSwizzle.m */; };
-		12881CEDCA332D6654645FDEB9AE34F6 /* UIStoryboard+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C3CE3DF951C3C9E3C8B3ED9E2F8DAA /* UIStoryboard+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		152F080F63BEB4D4A04FAC6A8E6EEE17 /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C22BCC6F85E3268425E41DF1D4533BE7 /* UIControl+Extension.m */; };
-		192240B3435D8C840362629F3FA758E3 /* NSObject+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = FFAF9DA8E3862157F2C1DC9D02CFAB5C /* NSObject+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D6E20DF12E1F41812B139F8D0EEA7B0 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDC6E2B44905C06DF70254D5E66375 /* NSDictionary+Extension.m */; };
-		2475B6EAFBC2A761295D75E73E46406B /* MRUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF726A3741E8D4658914CF243786C8A /* MRUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E39BBD96407D1F766C2FCE6C73C1245 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C819F138932963C5C462C8E299BC14 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F3096B5041815A717F33F0A015B4850 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5C12498AF05E74A082A4DAEDAA3760 /* NSString+Extension.m */; };
-		35BBBA91DCDDF7A8AFE4C22931EA48FE /* KMNavigationBarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A601FC2ACC25107F0A53894B9DC7466F /* KMNavigationBarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		418CB9CE8A094999D6F533AEA5377284 /* KMSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = B058954560E2B59153B218D3E72125FC /* KMSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		602DFB7EB3D93D05C10289A48378B9C1 /* UIControl+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = E807ECAF7B2F7C3FB2E8CEFDC4A329CD /* UIControl+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6776D4082F58B0D3A4AD891CC6917446 /* UINavigationController+KMNavigationBarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BE3A8F2EA5EB1258EEA0ED23AE8393 /* UINavigationController+KMNavigationBarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C970286CB3BD77C8DC40059C5C9C054 /* UINavigationController+KMNavigationBarTransition_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FF9DBD0512F000BE838FEB8C35466C /* UINavigationController+KMNavigationBarTransition_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		768E0DBF059C546E9B8B795BC96249E3 /* UINavigationController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5B0A887D5C0A63B8DF3A32B51E4FB9 /* UINavigationController+KMNavigationBarTransition.m */; };
-		79BD368FE48D5CE4944E362C1C89A6A1 /* KMWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C25E3836F4A3709A26864AD7DBA35E15 /* KMWeakObjectContainer.m */; };
-		7FC0D1E82CA9B444BBB502CFBEA0AC95 /* KMWeakObjectContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 847DDBD9E889DF8CE9DACB2B780AC8B2 /* KMWeakObjectContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81DE4DC18E105A8BE878E620D8CADA09 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D22D4E45269BF1ACD3EC7AFB2A0FDF /* NSObject+Extension.m */; };
-		8900D9E6F4B37C6EDF65A296D92292F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		8D8894BDFF5B5168561CA26B4C6C10AE /* Pods-MRBaseController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D459F61FE083D2907358CA3B324B1 /* Pods-MRBaseController-dummy.m */; };
-		9C6F1464786EA20059344451927B632A /* KMNavigationBarTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21420CEB4148D289AEF0ACA31997806A /* KMNavigationBarTransition-dummy.m */; };
-		A160733EF0B1038499B4A02E669484E4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C68CB421F7F50E0C694B560172C57725 /* UIView+Extension.m */; };
-		A976B06B5CF02882625C1E8D3360D4F4 /* MRFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B7895853E86EF9AF4214006ECD6C3 /* MRFramework-dummy.m */; };
-		AA614B23CF00128C053E3B9197CE5C5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		AB58DF46E30F6432F6DF63FB6A7862B8 /* UIViewController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B182B15DBE89C91721DE3F1E659E930 /* UIViewController+KMNavigationBarTransition.m */; };
-		AC31D29F0365754B0785C905160A00EF /* UIViewController+KMNavigationBarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 96117932C0203B5FDDEFF8A32C5354E7 /* UIViewController+KMNavigationBarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA6EB83CC8666FAE546ACC638F2D68EF /* NSDictionary+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4B7EB33D03A583D90D27C48A015CC3 /* NSDictionary+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D15CBE6DDFD87277F2C30F5872FCF852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		D9E711EA7A2F4D3675E57DD557B0D635 /* UIViewController+KMNavigationBarTransition_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A1E7514980BC838436E0C140C03CBA /* UIViewController+KMNavigationBarTransition_internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD591B98F5A770094197959C84DD38BE /* UIApplication+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B5D0F97A2577036B3E7223C33068EE /* UIApplication+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E42C726F7A7ABCBEBF0CBEF63DCCD888 /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8BB8B971B414A55A6F2488AE7FC9F /* UIApplication+Extension.m */; };
-		E5A3583D0B5EEE2B67AE3EFF2551FBEC /* NSJSONSerialization+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = C53595EAC4A144F70656805E7EA6DA72 /* NSJSONSerialization+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDA54FA11E2BA1DBFB846546789ABF72 /* MRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B042CB31DD8031B7073EEF53F23685 /* MRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE9F1C874BE9755CE57AEE283EA33F3D /* NSJSONSerialization+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D886345A5D7BFF231125E1E4BDA8E606 /* NSJSONSerialization+Extension.m */; };
-		F5122708704968525E7E706F0E3322A8 /* UIStoryboard+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DF203B692D8121FD7863268B1110DF /* UIStoryboard+Extension.m */; };
-		F952E66E6B84A9F638FFEC1A9E582D4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		05096F010DA19F5ED0C04B36058304DA /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AF09205710370B9F66FDCE94347AA /* UIControl+Extension.m */; };
+		0A327AB87D92FBB933B7229A49E6B5EE /* MRFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A49B67F22DC9BD19B6B313B40E1267A8 /* MRFramework-dummy.m */; };
+		15F7CDC067A95875F2105BA7B8379EAC /* UIStoryboard+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = AA84E516AEB82579AEB95C1A9F3BB431 /* UIStoryboard+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E907ECB1C3A205D5B83DC251ECD7C3C /* UIApplication+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7480A5AB7CF26838DD05D922AE6067 /* UIApplication+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296FCC12D31A82180C6FC6B5C9D5D771 /* UINavigationBar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB97F8B5C51F8613255AB274370E570 /* UINavigationBar+Extension.m */; };
+		2CBF7390B32A136DA2347AF2512C8B30 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A5BA26976A7EC3CCB63ED8E3A9E302 /* UIImage+Extension.m */; };
+		3D23BFCAB6F4BD05BCFED4A2D791EA1D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C821D4D3EF67DA72578C3DE0FBD453A /* UIView+Extension.m */; };
+		4D4519747C5326CD0792C2E374FF62F4 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D62ED1640677A41B616553AC0ECFDAF /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B9EA65AEB0B4511D23D8211606A2B /* UINavigationBar+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F04E1ADD41E6303F5D5C44B1ECEE9668 /* UINavigationBar+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC122432F5B843165E23FC7A8A56E06 /* NSJSONSerialization+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B08315E5E4050FC32B79C5F8BCDA8AAA /* NSJSONSerialization+Extension.m */; };
+		5E866B57226F42361F9E387F921BE2E2 /* NSObject+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = F454C5BE2107AC4EF97486772DE2EE64 /* NSObject+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		667C8010531EDB86A7A92353200732A0 /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA0C2BADAA1107F9C11A4FC92A82CD /* UIApplication+Extension.m */; };
+		69CC224E6E468D65A03567CCA300AE00 /* MRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F0183C34F830EA8570029383A78241DB /* MRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2F12863CF56779FCBE0E5419B6CE1E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3B2CD836F16664302C2D2DEE2F4BA0 /* NSString+Extension.m */; };
+		70FDA4E7AE9E9786FE470EE8E2FA4F19 /* UIStoryboard+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBA1D6F93374AC5E2E744F32AB3A691 /* UIStoryboard+Extension.m */; };
+		71A3B03DC3447CFBA2BE10F89E4ED0A0 /* MRUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5CB1A31F4E165392ECBC8CF5E23B1C /* MRUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A2F691C7F4B746435413DC21E086078 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B93FC8E8AAAF3BAD28D019ED13E8B08 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A7654E5C42F9C1439BCEADF6C865CAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AF71C5C4074BA240E625F554C3DC82D6 /* NSJSONSerialization+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1125B438E1BED177486DF6F41E2A51C4 /* NSJSONSerialization+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B114523FDFD3D3C13EE7BFCE74E73A6B /* Pods-MRBaseController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D459F61FE083D2907358CA3B324B1 /* Pods-MRBaseController-dummy.m */; };
+		BC190F25242E676F8633F2860ED1686D /* UIControl+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5925505440AF4CEC17AF2AEB7B644BBC /* UIControl+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE68C39EAC7DA61870400B8DE59E7C1F /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2ADA246B46C46404F2E34E27221F3 /* NSObject+Extension.m */; };
+		C45DCD4C2FCD56F70CDE257FEF88D007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CEB065219B716151132E8F36A04A1BFC /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = A952B7A031F1B40FDEED40B8E6AC0092 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB86E595B3E3F69551255874D2D89942 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A89B2660BFCC0314DD62BEB0F14395 /* NSDictionary+Extension.m */; };
+		FD1ED41519304D06DF9D100DC544639F /* NSDictionary+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDA67EC6C81F9B0BE7C07D1E692B326 /* NSDictionary+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48F87EC3BC2FF8C802C9C1E729524330 /* PBXContainerItemProxy */ = {
+		E79504C1329148413579A76F0F636EF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 834057F0A1AAE4D3818FFE6F71E74533;
+			remoteGlobalIDString = DF6BABA09D2201F3730C1EEF1CFC6DE3;
 			remoteInfo = MRFramework;
-		};
-		ADB7D1D07B209A77E37CDF418728E71B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D04134AD95005348B4BF7952FDD0CE9;
-			remoteInfo = KMNavigationBarTransition;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06BE3A8F2EA5EB1258EEA0ED23AE8393 /* UINavigationController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+KMNavigationBarTransition.h"; path = "KMNavigationBarTransition/UINavigationController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
-		0C104E594D0C15F8D2311BB73A6F4AD2 /* KMSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KMSwizzle.m; path = KMNavigationBarTransition/KMSwizzle.m; sourceTree = "<group>"; };
-		0C95C001B5FC88F9B7C8C158A9556AC1 /* KMNavigationBarTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMNavigationBarTransition-prefix.pch"; sourceTree = "<group>"; };
+		03BB76AFEC4DADAABBA0FEC7AC73A1E9 /* libPods-MRBaseController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MRBaseController.a"; path = "libPods-MRBaseController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1125B438E1BED177486DF6F41E2A51C4 /* NSJSONSerialization+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+Extension.h"; path = "Classes/Foundation-Extension/NSJSONSerialization+Extension.h"; sourceTree = "<group>"; };
 		1319FDDAF8D84DCA9EF8E0466F1C1398 /* Pods-MRBaseController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRBaseController-acknowledgements.plist"; sourceTree = "<group>"; };
-		15DF203B692D8121FD7863268B1110DF /* UIStoryboard+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+Extension.m"; path = "Classes/UIKit-Extension/UIStoryboard+Extension.m"; sourceTree = "<group>"; };
 		1C9D459F61FE083D2907358CA3B324B1 /* Pods-MRBaseController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRBaseController-dummy.m"; sourceTree = "<group>"; };
-		21420CEB4148D289AEF0ACA31997806A /* KMNavigationBarTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMNavigationBarTransition-dummy.m"; sourceTree = "<group>"; };
-		32D6FE4F41D505D6A27C56D6C15FC9DA /* libPods-MRBaseController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MRBaseController.a"; path = "libPods-MRBaseController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4B7EB33D03A583D90D27C48A015CC3 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Extension.h"; path = "Classes/Foundation-Extension/NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		27F2ADA246B46C46404F2E34E27221F3 /* NSObject+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Extension.m"; path = "Classes/Foundation-Extension/NSObject+Extension.m"; sourceTree = "<group>"; };
+		2B93FC8E8AAAF3BAD28D019ED13E8B08 /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "Classes/UIKit-Extension/UIImage+Extension.h"; sourceTree = "<group>"; };
 		3B5350FF84C1A1B6305CAA4928C5A57A /* Pods-MRBaseController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRBaseController.debug.xcconfig"; sourceTree = "<group>"; };
-		41FF9DBD0512F000BE838FEB8C35466C /* UINavigationController+KMNavigationBarTransition_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+KMNavigationBarTransition_Internal.h"; path = "KMNavigationBarTransition/UINavigationController+KMNavigationBarTransition_Internal.h"; sourceTree = "<group>"; };
-		4A4B7895853E86EF9AF4214006ECD6C3 /* MRFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRFramework-dummy.m"; sourceTree = "<group>"; };
-		4E139B6F099654B2BC81C478E57EA240 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "Classes/UIKit-Extension/UIView+Extension.h"; sourceTree = "<group>"; };
-		50B042CB31DD8031B7073EEF53F23685 /* MRFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRFoundation.h; path = "Classes/Foundation-Extension/MRFoundation.h"; sourceTree = "<group>"; };
-		56C3CE3DF951C3C9E3C8B3ED9E2F8DAA /* UIStoryboard+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStoryboard+Extension.h"; path = "Classes/UIKit-Extension/UIStoryboard+Extension.h"; sourceTree = "<group>"; };
+		53AD11EA160A107B6ADD36314C996440 /* MRFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRFramework-prefix.pch"; sourceTree = "<group>"; };
+		5925505440AF4CEC17AF2AEB7B644BBC /* UIControl+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Extension.h"; path = "Classes/UIKit-Extension/UIControl+Extension.h"; sourceTree = "<group>"; };
+		5C3B2CD836F16664302C2D2DEE2F4BA0 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "Classes/Foundation-Extension/NSString+Extension.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66A89B2660BFCC0314DD62BEB0F14395 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Extension.m"; path = "Classes/Foundation-Extension/NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		6C821D4D3EF67DA72578C3DE0FBD453A /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "Classes/UIKit-Extension/UIView+Extension.m"; sourceTree = "<group>"; };
 		7AE511E180F7D7A1D5F014D5B987FD9B /* Pods-MRBaseController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRBaseController-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82A1E7514980BC838436E0C140C03CBA /* UIViewController+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KMNavigationBarTransition_internal.h"; path = "KMNavigationBarTransition/UIViewController+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
-		847DDBD9E889DF8CE9DACB2B780AC8B2 /* KMWeakObjectContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMWeakObjectContainer.h; path = KMNavigationBarTransition/KMWeakObjectContainer.h; sourceTree = "<group>"; };
-		8EEDC6E2B44905C06DF70254D5E66375 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Extension.m"; path = "Classes/Foundation-Extension/NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		7D62ED1640677A41B616553AC0ECFDAF /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "Classes/UIKit-Extension/UIView+Extension.h"; sourceTree = "<group>"; };
+		8164145A2BD6672B101848F85D29DC32 /* libMRFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMRFramework.a; path = libMRFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95B5D0F97A2577036B3E7223C33068EE /* UIApplication+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Extension.h"; path = "Classes/UIKit-Extension/UIApplication+Extension.h"; sourceTree = "<group>"; };
-		96117932C0203B5FDDEFF8A32C5354E7 /* UIViewController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KMNavigationBarTransition.h"; path = "KMNavigationBarTransition/UIViewController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
-		9B182B15DBE89C91721DE3F1E659E930 /* UIViewController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KMNavigationBarTransition.m"; path = "KMNavigationBarTransition/UIViewController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
-		9DE8BB8B971B414A55A6F2488AE7FC9F /* UIApplication+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Extension.m"; path = "Classes/UIKit-Extension/UIApplication+Extension.m"; sourceTree = "<group>"; };
-		A601FC2ACC25107F0A53894B9DC7466F /* KMNavigationBarTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMNavigationBarTransition.h; path = KMNavigationBarTransition/KMNavigationBarTransition.h; sourceTree = "<group>"; };
-		B058954560E2B59153B218D3E72125FC /* KMSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMSwizzle.h; path = KMNavigationBarTransition/KMSwizzle.h; sourceTree = "<group>"; };
-		B472903E06C7EE0455A82B4103921203 /* MRFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRFramework-prefix.pch"; sourceTree = "<group>"; };
-		B4D22D4E45269BF1ACD3EC7AFB2A0FDF /* NSObject+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Extension.m"; path = "Classes/Foundation-Extension/NSObject+Extension.m"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B7BC54162466723B1E066C5BC1592190 /* MRFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRFramework.xcconfig; sourceTree = "<group>"; };
-		BDF726A3741E8D4658914CF243786C8A /* MRUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRUIKit.h; path = "Classes/UIKit-Extension/MRUIKit.h"; sourceTree = "<group>"; };
-		C22BCC6F85E3268425E41DF1D4533BE7 /* UIControl+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Extension.m"; path = "Classes/UIKit-Extension/UIControl+Extension.m"; sourceTree = "<group>"; };
-		C25E3836F4A3709A26864AD7DBA35E15 /* KMWeakObjectContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KMWeakObjectContainer.m; path = KMNavigationBarTransition/KMWeakObjectContainer.m; sourceTree = "<group>"; };
-		C53595EAC4A144F70656805E7EA6DA72 /* NSJSONSerialization+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+Extension.h"; path = "Classes/Foundation-Extension/NSJSONSerialization+Extension.h"; sourceTree = "<group>"; };
-		C68CB421F7F50E0C694B560172C57725 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "Classes/UIKit-Extension/UIView+Extension.m"; sourceTree = "<group>"; };
-		C8078C94A15DE17E5FA49F70DEBE2CFB /* KMNavigationBarTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMNavigationBarTransition.xcconfig; sourceTree = "<group>"; };
-		C8C819F138932963C5C462C8E299BC14 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "Classes/Foundation-Extension/NSString+Extension.h"; sourceTree = "<group>"; };
-		D886345A5D7BFF231125E1E4BDA8E606 /* NSJSONSerialization+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+Extension.m"; path = "Classes/Foundation-Extension/NSJSONSerialization+Extension.m"; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A49B67F22DC9BD19B6B313B40E1267A8 /* MRFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRFramework-dummy.m"; sourceTree = "<group>"; };
+		A952B7A031F1B40FDEED40B8E6AC0092 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "Classes/Foundation-Extension/NSString+Extension.h"; sourceTree = "<group>"; };
+		AA84E516AEB82579AEB95C1A9F3BB431 /* UIStoryboard+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStoryboard+Extension.h"; path = "Classes/UIKit-Extension/UIStoryboard+Extension.h"; sourceTree = "<group>"; };
+		B08315E5E4050FC32B79C5F8BCDA8AAA /* NSJSONSerialization+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+Extension.m"; path = "Classes/Foundation-Extension/NSJSONSerialization+Extension.m"; sourceTree = "<group>"; };
+		B2A5BA26976A7EC3CCB63ED8E3A9E302 /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "Classes/UIKit-Extension/UIImage+Extension.m"; sourceTree = "<group>"; };
+		BDDA67EC6C81F9B0BE7C07D1E692B326 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Extension.h"; path = "Classes/Foundation-Extension/NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		C46AF09205710370B9F66FDCE94347AA /* UIControl+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Extension.m"; path = "Classes/UIKit-Extension/UIControl+Extension.m"; sourceTree = "<group>"; };
+		C6D0001561883196561B1E0E8DF9A969 /* MRFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRFramework.xcconfig; sourceTree = "<group>"; };
+		CBB97F8B5C51F8613255AB274370E570 /* UINavigationBar+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+Extension.m"; path = "Classes/UIKit-Extension/UINavigationBar+Extension.m"; sourceTree = "<group>"; };
+		CEFA0C2BADAA1107F9C11A4FC92A82CD /* UIApplication+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Extension.m"; path = "Classes/UIKit-Extension/UIApplication+Extension.m"; sourceTree = "<group>"; };
 		D98EBFF4E95804E015278EC26A400F5A /* Pods-MRBaseController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRBaseController-resources.sh"; sourceTree = "<group>"; };
-		DA5C12498AF05E74A082A4DAEDAA3760 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "Classes/Foundation-Extension/NSString+Extension.m"; sourceTree = "<group>"; };
 		DC2EA938F02CE6ADB6024BE5D4DA0A59 /* Pods-MRBaseController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRBaseController.release.xcconfig"; sourceTree = "<group>"; };
-		DF5B0A887D5C0A63B8DF3A32B51E4FB9 /* UINavigationController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+KMNavigationBarTransition.m"; path = "KMNavigationBarTransition/UINavigationController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
-		E807ECAF7B2F7C3FB2E8CEFDC4A329CD /* UIControl+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Extension.h"; path = "Classes/UIKit-Extension/UIControl+Extension.h"; sourceTree = "<group>"; };
+		DEBA1D6F93374AC5E2E744F32AB3A691 /* UIStoryboard+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+Extension.m"; path = "Classes/UIKit-Extension/UIStoryboard+Extension.m"; sourceTree = "<group>"; };
 		E8D3E6BADBAC923E07AE6600B46BFA8A /* Pods-MRBaseController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRBaseController-frameworks.sh"; sourceTree = "<group>"; };
-		EA8DAA35C091FCB1C5ACA1436698075F /* libMRFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMRFramework.a; path = libMRFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD4278073BAC5CE3840E86B25D8783FF /* libKMNavigationBarTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKMNavigationBarTransition.a; path = libKMNavigationBarTransition.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFAF9DA8E3862157F2C1DC9D02CFAB5C /* NSObject+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Extension.h"; path = "Classes/Foundation-Extension/NSObject+Extension.h"; sourceTree = "<group>"; };
+		EF7480A5AB7CF26838DD05D922AE6067 /* UIApplication+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Extension.h"; path = "Classes/UIKit-Extension/UIApplication+Extension.h"; sourceTree = "<group>"; };
+		F0183C34F830EA8570029383A78241DB /* MRFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRFoundation.h; path = "Classes/Foundation-Extension/MRFoundation.h"; sourceTree = "<group>"; };
+		F04E1ADD41E6303F5D5C44B1ECEE9668 /* UINavigationBar+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+Extension.h"; path = "Classes/UIKit-Extension/UINavigationBar+Extension.h"; sourceTree = "<group>"; };
+		F454C5BE2107AC4EF97486772DE2EE64 /* NSObject+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Extension.h"; path = "Classes/Foundation-Extension/NSObject+Extension.h"; sourceTree = "<group>"; };
+		FD5CB1A31F4E165392ECBC8CF5E23B1C /* MRUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRUIKit.h; path = "Classes/UIKit-Extension/MRUIKit.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0559023E64ECB8676C409DBDE2169AC6 /* Frameworks */ = {
+		32CBCBB6CAFA89E8F4DD93B8690F72D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F952E66E6B84A9F638FFEC1A9E582D4A /* Foundation.framework in Frameworks */,
+				C45DCD4C2FCD56F70CDE257FEF88D007 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C408550534344D7BF8000DC927E896AE /* Frameworks */ = {
+		4EEB6017E1D1D63A3500467173F185CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8900D9E6F4B37C6EDF65A296D92292F9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDD066FFADDD2B393BEFBC68A6C2CD41 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D15CBE6DDFD87277F2C30F5872FCF852 /* Foundation.framework in Frameworks */,
-				AA614B23CF00128C053E3B9197CE5C5A /* UIKit.framework in Frameworks */,
+				8A7654E5C42F9C1439BCEADF6C865CAB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		071F7F158C99A239BBEB85C3EEB9705B /* Pods */ = {
+		372217FC8F1017780B3137C4A199B311 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C5617D2EBCB0D9D76401E9B206C4F998 /* KMNavigationBarTransition */,
-				2A0C417939CBB6B807EF63A40084CFEE /* MRFramework */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		195597D03B9965C2307CC456263DF72B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FD4278073BAC5CE3840E86B25D8783FF /* libKMNavigationBarTransition.a */,
-				EA8DAA35C091FCB1C5ACA1436698075F /* libMRFramework.a */,
-				32D6FE4F41D505D6A27C56D6C15FC9DA /* libPods-MRBaseController.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2A0C417939CBB6B807EF63A40084CFEE /* MRFramework */ = {
-			isa = PBXGroup;
-			children = (
-				50B042CB31DD8031B7073EEF53F23685 /* MRFoundation.h */,
-				BDF726A3741E8D4658914CF243786C8A /* MRUIKit.h */,
-				3B4B7EB33D03A583D90D27C48A015CC3 /* NSDictionary+Extension.h */,
-				8EEDC6E2B44905C06DF70254D5E66375 /* NSDictionary+Extension.m */,
-				C53595EAC4A144F70656805E7EA6DA72 /* NSJSONSerialization+Extension.h */,
-				D886345A5D7BFF231125E1E4BDA8E606 /* NSJSONSerialization+Extension.m */,
-				FFAF9DA8E3862157F2C1DC9D02CFAB5C /* NSObject+Extension.h */,
-				B4D22D4E45269BF1ACD3EC7AFB2A0FDF /* NSObject+Extension.m */,
-				C8C819F138932963C5C462C8E299BC14 /* NSString+Extension.h */,
-				DA5C12498AF05E74A082A4DAEDAA3760 /* NSString+Extension.m */,
-				95B5D0F97A2577036B3E7223C33068EE /* UIApplication+Extension.h */,
-				9DE8BB8B971B414A55A6F2488AE7FC9F /* UIApplication+Extension.m */,
-				E807ECAF7B2F7C3FB2E8CEFDC4A329CD /* UIControl+Extension.h */,
-				C22BCC6F85E3268425E41DF1D4533BE7 /* UIControl+Extension.m */,
-				56C3CE3DF951C3C9E3C8B3ED9E2F8DAA /* UIStoryboard+Extension.h */,
-				15DF203B692D8121FD7863268B1110DF /* UIStoryboard+Extension.m */,
-				4E139B6F099654B2BC81C478E57EA240 /* UIView+Extension.h */,
-				C68CB421F7F50E0C694B560172C57725 /* UIView+Extension.m */,
-				BDFE8ABA2D9F19842CB9261EE31D23BA /* Support Files */,
-			);
-			name = MRFramework;
-			path = MRFramework;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		77FA95C5DE1D98E738AA119607FF0F3A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C8078C94A15DE17E5FA49F70DEBE2CFB /* KMNavigationBarTransition.xcconfig */,
-				21420CEB4148D289AEF0ACA31997806A /* KMNavigationBarTransition-dummy.m */,
-				0C95C001B5FC88F9B7C8C158A9556AC1 /* KMNavigationBarTransition-prefix.pch */,
+				C6D0001561883196561B1E0E8DF9A969 /* MRFramework.xcconfig */,
+				A49B67F22DC9BD19B6B313B40E1267A8 /* MRFramework-dummy.m */,
+				53AD11EA160A107B6ADD36314C996440 /* MRFramework-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KMNavigationBarTransition";
+			path = "../Target Support Files/MRFramework";
+			sourceTree = "<group>";
+		};
+		443FD4D7DEC7AEBB5B03A3E9391E5193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8164145A2BD6672B101848F85D29DC32 /* libMRFramework.a */,
+				03BB76AFEC4DADAABBA0FEC7AC73A1E9 /* libPods-MRBaseController.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				071F7F158C99A239BBEB85C3EEB9705B /* Pods */,
-				195597D03B9965C2307CC456263DF72B /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F57E9E1AF1DA2C4B20505AB1EFA67DE6 /* Pods */,
+				443FD4D7DEC7AEBB5B03A3E9391E5193 /* Products */,
 				C945CF402DF40BA038DA45942C74773F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -242,35 +150,43 @@
 			path = "Target Support Files/Pods-MRBaseController";
 			sourceTree = "<group>";
 		};
-		BDFE8ABA2D9F19842CB9261EE31D23BA /* Support Files */ = {
+		8BC8E27B4614A6EC50BD6B1A7E7025CF /* MRFramework */ = {
 			isa = PBXGroup;
 			children = (
-				B7BC54162466723B1E066C5BC1592190 /* MRFramework.xcconfig */,
-				4A4B7895853E86EF9AF4214006ECD6C3 /* MRFramework-dummy.m */,
-				B472903E06C7EE0455A82B4103921203 /* MRFramework-prefix.pch */,
+				F0183C34F830EA8570029383A78241DB /* MRFoundation.h */,
+				FD5CB1A31F4E165392ECBC8CF5E23B1C /* MRUIKit.h */,
+				BDDA67EC6C81F9B0BE7C07D1E692B326 /* NSDictionary+Extension.h */,
+				66A89B2660BFCC0314DD62BEB0F14395 /* NSDictionary+Extension.m */,
+				1125B438E1BED177486DF6F41E2A51C4 /* NSJSONSerialization+Extension.h */,
+				B08315E5E4050FC32B79C5F8BCDA8AAA /* NSJSONSerialization+Extension.m */,
+				F454C5BE2107AC4EF97486772DE2EE64 /* NSObject+Extension.h */,
+				27F2ADA246B46C46404F2E34E27221F3 /* NSObject+Extension.m */,
+				A952B7A031F1B40FDEED40B8E6AC0092 /* NSString+Extension.h */,
+				5C3B2CD836F16664302C2D2DEE2F4BA0 /* NSString+Extension.m */,
+				EF7480A5AB7CF26838DD05D922AE6067 /* UIApplication+Extension.h */,
+				CEFA0C2BADAA1107F9C11A4FC92A82CD /* UIApplication+Extension.m */,
+				5925505440AF4CEC17AF2AEB7B644BBC /* UIControl+Extension.h */,
+				C46AF09205710370B9F66FDCE94347AA /* UIControl+Extension.m */,
+				2B93FC8E8AAAF3BAD28D019ED13E8B08 /* UIImage+Extension.h */,
+				B2A5BA26976A7EC3CCB63ED8E3A9E302 /* UIImage+Extension.m */,
+				F04E1ADD41E6303F5D5C44B1ECEE9668 /* UINavigationBar+Extension.h */,
+				CBB97F8B5C51F8613255AB274370E570 /* UINavigationBar+Extension.m */,
+				AA84E516AEB82579AEB95C1A9F3BB431 /* UIStoryboard+Extension.h */,
+				DEBA1D6F93374AC5E2E744F32AB3A691 /* UIStoryboard+Extension.m */,
+				7D62ED1640677A41B616553AC0ECFDAF /* UIView+Extension.h */,
+				6C821D4D3EF67DA72578C3DE0FBD453A /* UIView+Extension.m */,
+				372217FC8F1017780B3137C4A199B311 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MRFramework";
+			name = MRFramework;
+			path = MRFramework;
 			sourceTree = "<group>";
 		};
-		C5617D2EBCB0D9D76401E9B206C4F998 /* KMNavigationBarTransition */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A601FC2ACC25107F0A53894B9DC7466F /* KMNavigationBarTransition.h */,
-				B058954560E2B59153B218D3E72125FC /* KMSwizzle.h */,
-				0C104E594D0C15F8D2311BB73A6F4AD2 /* KMSwizzle.m */,
-				847DDBD9E889DF8CE9DACB2B780AC8B2 /* KMWeakObjectContainer.h */,
-				C25E3836F4A3709A26864AD7DBA35E15 /* KMWeakObjectContainer.m */,
-				06BE3A8F2EA5EB1258EEA0ED23AE8393 /* UINavigationController+KMNavigationBarTransition.h */,
-				DF5B0A887D5C0A63B8DF3A32B51E4FB9 /* UINavigationController+KMNavigationBarTransition.m */,
-				41FF9DBD0512F000BE838FEB8C35466C /* UINavigationController+KMNavigationBarTransition_Internal.h */,
-				96117932C0203B5FDDEFF8A32C5354E7 /* UIViewController+KMNavigationBarTransition.h */,
-				9B182B15DBE89C91721DE3F1E659E930 /* UIViewController+KMNavigationBarTransition.m */,
-				82A1E7514980BC838436E0C140C03CBA /* UIViewController+KMNavigationBarTransition_internal.h */,
-				77FA95C5DE1D98E738AA119607FF0F3A /* Support Files */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
-			name = KMNavigationBarTransition;
-			path = KMNavigationBarTransition;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C945CF402DF40BA038DA45942C74773F /* Targets Support Files */ = {
@@ -281,68 +197,71 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F57E9E1AF1DA2C4B20505AB1EFA67DE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8E27B4614A6EC50BD6B1A7E7025CF /* MRFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46938144864CE16CEC8BA537466D8126 /* Headers */ = {
+		E364131FB462BDEF55F0DA7889434841 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA54FA11E2BA1DBFB846546789ABF72 /* MRFoundation.h in Headers */,
-				2475B6EAFBC2A761295D75E73E46406B /* MRUIKit.h in Headers */,
-				BA6EB83CC8666FAE546ACC638F2D68EF /* NSDictionary+Extension.h in Headers */,
-				E5A3583D0B5EEE2B67AE3EFF2551FBEC /* NSJSONSerialization+Extension.h in Headers */,
-				192240B3435D8C840362629F3FA758E3 /* NSObject+Extension.h in Headers */,
-				2E39BBD96407D1F766C2FCE6C73C1245 /* NSString+Extension.h in Headers */,
-				DD591B98F5A770094197959C84DD38BE /* UIApplication+Extension.h in Headers */,
-				602DFB7EB3D93D05C10289A48378B9C1 /* UIControl+Extension.h in Headers */,
-				12881CEDCA332D6654645FDEB9AE34F6 /* UIStoryboard+Extension.h in Headers */,
-				00B25CF02B4E2F4E22ED1A3E29A87FB1 /* UIView+Extension.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8436A9373700BCF5B2D99323A85C5120 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35BBBA91DCDDF7A8AFE4C22931EA48FE /* KMNavigationBarTransition.h in Headers */,
-				418CB9CE8A094999D6F533AEA5377284 /* KMSwizzle.h in Headers */,
-				7FC0D1E82CA9B444BBB502CFBEA0AC95 /* KMWeakObjectContainer.h in Headers */,
-				6776D4082F58B0D3A4AD891CC6917446 /* UINavigationController+KMNavigationBarTransition.h in Headers */,
-				6C970286CB3BD77C8DC40059C5C9C054 /* UINavigationController+KMNavigationBarTransition_Internal.h in Headers */,
-				AC31D29F0365754B0785C905160A00EF /* UIViewController+KMNavigationBarTransition.h in Headers */,
-				D9E711EA7A2F4D3675E57DD557B0D635 /* UIViewController+KMNavigationBarTransition_internal.h in Headers */,
+				69CC224E6E468D65A03567CCA300AE00 /* MRFoundation.h in Headers */,
+				71A3B03DC3447CFBA2BE10F89E4ED0A0 /* MRUIKit.h in Headers */,
+				FD1ED41519304D06DF9D100DC544639F /* NSDictionary+Extension.h in Headers */,
+				AF71C5C4074BA240E625F554C3DC82D6 /* NSJSONSerialization+Extension.h in Headers */,
+				5E866B57226F42361F9E387F921BE2E2 /* NSObject+Extension.h in Headers */,
+				CEB065219B716151132E8F36A04A1BFC /* NSString+Extension.h in Headers */,
+				1E907ECB1C3A205D5B83DC251ECD7C3C /* UIApplication+Extension.h in Headers */,
+				BC190F25242E676F8633F2860ED1686D /* UIControl+Extension.h in Headers */,
+				8A2F691C7F4B746435413DC21E086078 /* UIImage+Extension.h in Headers */,
+				550B9EA65AEB0B4511D23D8211606A2B /* UINavigationBar+Extension.h in Headers */,
+				15F7CDC067A95875F2105BA7B8379EAC /* UIStoryboard+Extension.h in Headers */,
+				4D4519747C5326CD0792C2E374FF62F4 /* UIView+Extension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4D7D2C9582925E058F14A0D2F04211EB /* Pods-MRBaseController */ = {
+		3CCDEC227BE61F48364EE201C0F08F7B /* Pods-MRBaseController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23822B9CF10B0A028BDD4D126445A8B6 /* Build configuration list for PBXNativeTarget "Pods-MRBaseController" */;
+			buildConfigurationList = 2E288BC29942DB2738606C4214019632 /* Build configuration list for PBXNativeTarget "Pods-MRBaseController" */;
 			buildPhases = (
-				91E48C85640E40894172B6FBDBB8819F /* Sources */,
-				C408550534344D7BF8000DC927E896AE /* Frameworks */,
+				1E18B1C8771B15BCE1F4FB347DBB34C4 /* Sources */,
+				4EEB6017E1D1D63A3500467173F185CB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A4739DD7A5C28609D87371553B974CF4 /* PBXTargetDependency */,
-				62FEE595AA66BAE9519D93A2AFB0CF22 /* PBXTargetDependency */,
+				89BCD20A67F57362258715DA782BFC1B /* PBXTargetDependency */,
 			);
 			name = "Pods-MRBaseController";
 			productName = "Pods-MRBaseController";
-			productReference = 32D6FE4F41D505D6A27C56D6C15FC9DA /* libPods-MRBaseController.a */;
+			productReference = 03BB76AFEC4DADAABBA0FEC7AC73A1E9 /* libPods-MRBaseController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		834057F0A1AAE4D3818FFE6F71E74533 /* MRFramework */ = {
+		DF6BABA09D2201F3730C1EEF1CFC6DE3 /* MRFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FB2BD5AEAEC7D3B03063D80ACBC1F08 /* Build configuration list for PBXNativeTarget "MRFramework" */;
+			buildConfigurationList = E6843908A224C94FD5E7065E29570ED2 /* Build configuration list for PBXNativeTarget "MRFramework" */;
 			buildPhases = (
-				2B77B29B337E75171BDEA7755723F326 /* Sources */,
-				0559023E64ECB8676C409DBDE2169AC6 /* Frameworks */,
-				46938144864CE16CEC8BA537466D8126 /* Headers */,
+				68D88F1D8B6A96098EA87B33CC0F3F3D /* Sources */,
+				32CBCBB6CAFA89E8F4DD93B8690F72D1 /* Frameworks */,
+				E364131FB462BDEF55F0DA7889434841 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -350,24 +269,7 @@
 			);
 			name = MRFramework;
 			productName = MRFramework;
-			productReference = EA8DAA35C091FCB1C5ACA1436698075F /* libMRFramework.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8D04134AD95005348B4BF7952FDD0CE9 /* KMNavigationBarTransition */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66CBCE8B5A8C391EE4A14D508E7D1651 /* Build configuration list for PBXNativeTarget "KMNavigationBarTransition" */;
-			buildPhases = (
-				A06C8E14F0D2B223500CB73F702CE56A /* Sources */,
-				EDD066FFADDD2B393BEFBC68A6C2CD41 /* Frameworks */,
-				8436A9373700BCF5B2D99323A85C5120 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KMNavigationBarTransition;
-			productName = KMNavigationBarTransition;
-			productReference = FD4278073BAC5CE3840E86B25D8783FF /* libKMNavigationBarTransition.a */;
+			productReference = 8164145A2BD6672B101848F85D29DC32 /* libMRFramework.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -387,118 +289,55 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 195597D03B9965C2307CC456263DF72B /* Products */;
+			productRefGroup = 443FD4D7DEC7AEBB5B03A3E9391E5193 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D04134AD95005348B4BF7952FDD0CE9 /* KMNavigationBarTransition */,
-				834057F0A1AAE4D3818FFE6F71E74533 /* MRFramework */,
-				4D7D2C9582925E058F14A0D2F04211EB /* Pods-MRBaseController */,
+				DF6BABA09D2201F3730C1EEF1CFC6DE3 /* MRFramework */,
+				3CCDEC227BE61F48364EE201C0F08F7B /* Pods-MRBaseController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B77B29B337E75171BDEA7755723F326 /* Sources */ = {
+		1E18B1C8771B15BCE1F4FB347DBB34C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A976B06B5CF02882625C1E8D3360D4F4 /* MRFramework-dummy.m in Sources */,
-				1D6E20DF12E1F41812B139F8D0EEA7B0 /* NSDictionary+Extension.m in Sources */,
-				EE9F1C874BE9755CE57AEE283EA33F3D /* NSJSONSerialization+Extension.m in Sources */,
-				81DE4DC18E105A8BE878E620D8CADA09 /* NSObject+Extension.m in Sources */,
-				2F3096B5041815A717F33F0A015B4850 /* NSString+Extension.m in Sources */,
-				E42C726F7A7ABCBEBF0CBEF63DCCD888 /* UIApplication+Extension.m in Sources */,
-				152F080F63BEB4D4A04FAC6A8E6EEE17 /* UIControl+Extension.m in Sources */,
-				F5122708704968525E7E706F0E3322A8 /* UIStoryboard+Extension.m in Sources */,
-				A160733EF0B1038499B4A02E669484E4 /* UIView+Extension.m in Sources */,
+				B114523FDFD3D3C13EE7BFCE74E73A6B /* Pods-MRBaseController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91E48C85640E40894172B6FBDBB8819F /* Sources */ = {
+		68D88F1D8B6A96098EA87B33CC0F3F3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D8894BDFF5B5168561CA26B4C6C10AE /* Pods-MRBaseController-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A06C8E14F0D2B223500CB73F702CE56A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C6F1464786EA20059344451927B632A /* KMNavigationBarTransition-dummy.m in Sources */,
-				0D7334E77A70A95BBC40AA3B30E34AEE /* KMSwizzle.m in Sources */,
-				79BD368FE48D5CE4944E362C1C89A6A1 /* KMWeakObjectContainer.m in Sources */,
-				768E0DBF059C546E9B8B795BC96249E3 /* UINavigationController+KMNavigationBarTransition.m in Sources */,
-				AB58DF46E30F6432F6DF63FB6A7862B8 /* UIViewController+KMNavigationBarTransition.m in Sources */,
+				0A327AB87D92FBB933B7229A49E6B5EE /* MRFramework-dummy.m in Sources */,
+				DB86E595B3E3F69551255874D2D89942 /* NSDictionary+Extension.m in Sources */,
+				5CC122432F5B843165E23FC7A8A56E06 /* NSJSONSerialization+Extension.m in Sources */,
+				BE68C39EAC7DA61870400B8DE59E7C1F /* NSObject+Extension.m in Sources */,
+				6C2F12863CF56779FCBE0E5419B6CE1E /* NSString+Extension.m in Sources */,
+				667C8010531EDB86A7A92353200732A0 /* UIApplication+Extension.m in Sources */,
+				05096F010DA19F5ED0C04B36058304DA /* UIControl+Extension.m in Sources */,
+				2CBF7390B32A136DA2347AF2512C8B30 /* UIImage+Extension.m in Sources */,
+				296FCC12D31A82180C6FC6B5C9D5D771 /* UINavigationBar+Extension.m in Sources */,
+				70FDA4E7AE9E9786FE470EE8E2FA4F19 /* UIStoryboard+Extension.m in Sources */,
+				3D23BFCAB6F4BD05BCFED4A2D791EA1D /* UIView+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		62FEE595AA66BAE9519D93A2AFB0CF22 /* PBXTargetDependency */ = {
+		89BCD20A67F57362258715DA782BFC1B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MRFramework;
-			target = 834057F0A1AAE4D3818FFE6F71E74533 /* MRFramework */;
-			targetProxy = 48F87EC3BC2FF8C802C9C1E729524330 /* PBXContainerItemProxy */;
-		};
-		A4739DD7A5C28609D87371553B974CF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KMNavigationBarTransition;
-			target = 8D04134AD95005348B4BF7952FDD0CE9 /* KMNavigationBarTransition */;
-			targetProxy = ADB7D1D07B209A77E37CDF418728E71B /* PBXContainerItemProxy */;
+			target = DF6BABA09D2201F3730C1EEF1CFC6DE3 /* MRFramework */;
+			targetProxy = E79504C1329148413579A76F0F636EF3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09D8BEAF1A44734F974B3BC8853D25EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7BC54162466723B1E066C5BC1592190 /* MRFramework.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MRFramework/MRFramework-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		1647D46E0CB11B6B6631ABC9232F3BB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7BC54162466723B1E066C5BC1592190 /* MRFramework.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MRFramework/MRFramework-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -543,7 +382,76 @@
 			};
 			name = Release;
 		};
-		944B93983DB7EA946515EF76911C8DA7 /* Debug */ = {
+		6DD161BEA953AD57632BF3A232248A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D0001561883196561B1E0E8DF9A969 /* MRFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRFramework/MRFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		704E3760AD3EC13C462B585B6141A8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2EA938F02CE6ADB6024BE5D4DA0A59 /* Pods-MRBaseController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		709BFA6B4454CBF6AF624BD608E3C903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D0001561883196561B1E0E8DF9A969 /* MRFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRFramework/MRFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A7BA32E6A68B238D1100924F7A207334 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B5350FF84C1A1B6305CAA4928C5A57A /* Pods-MRBaseController.debug.xcconfig */;
 			buildSettings = {
@@ -561,29 +469,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B967841DA4182BBD022336926AE739EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8078C94A15DE17E5FA49F70DEBE2CFB /* KMNavigationBarTransition.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KMNavigationBarTransition/KMNavigationBarTransition-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -637,64 +522,9 @@
 			};
 			name = Debug;
 		};
-		D8B2A15F7836D8D7784D3BBEFF868C2C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC2EA938F02CE6ADB6024BE5D4DA0A59 /* Pods-MRBaseController.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		EBD8C064534534D8C07305DC7D834CC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8078C94A15DE17E5FA49F70DEBE2CFB /* KMNavigationBarTransition.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KMNavigationBarTransition/KMNavigationBarTransition-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23822B9CF10B0A028BDD4D126445A8B6 /* Build configuration list for PBXNativeTarget "Pods-MRBaseController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				944B93983DB7EA946515EF76911C8DA7 /* Debug */,
-				D8B2A15F7836D8D7784D3BBEFF868C2C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -704,20 +534,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FB2BD5AEAEC7D3B03063D80ACBC1F08 /* Build configuration list for PBXNativeTarget "MRFramework" */ = {
+		2E288BC29942DB2738606C4214019632 /* Build configuration list for PBXNativeTarget "Pods-MRBaseController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09D8BEAF1A44734F974B3BC8853D25EE /* Debug */,
-				1647D46E0CB11B6B6631ABC9232F3BB7 /* Release */,
+				A7BA32E6A68B238D1100924F7A207334 /* Debug */,
+				704E3760AD3EC13C462B585B6141A8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66CBCE8B5A8C391EE4A14D508E7D1651 /* Build configuration list for PBXNativeTarget "KMNavigationBarTransition" */ = {
+		E6843908A224C94FD5E7065E29570ED2 /* Build configuration list for PBXNativeTarget "MRFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B967841DA4182BBD022336926AE739EE /* Debug */,
-				EBD8C064534534D8C07305DC7D834CC2 /* Release */,
+				6DD161BEA953AD57632BF3A232248A3F /* Debug */,
+				709BFA6B4454CBF6AF624BD608E3C903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
