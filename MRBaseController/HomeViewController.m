@@ -26,6 +26,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)appWillActive
+{
+    
+}
+
+- (void)appWillInactive
+{
+    
+}
+
 /*
 #pragma mark - Navigation
 

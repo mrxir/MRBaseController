@@ -37,6 +37,7 @@
                                                                            selectedImage:[UIImage imageNamed:@"setting_s"]];
     
     self.viewControllers = @[home, setting];
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,7 +8,7 @@
 
 #import "MRBaseNavigationController.h"
 
-@interface MRBaseNavigationController ()<UIGestureRecognizerDelegate>
+@interface MRBaseNavigationController ()
 
 @end
 
@@ -17,10 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
-        
-    
 }
 
 - (void)didReceiveMemoryWarning {
